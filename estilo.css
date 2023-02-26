@@ -529,7 +529,6 @@ footer .fin{
 }
 
 #seccion-catalogo h1{
-    margin-bottom: 30px;
     margin-top: 15px;
     text-align: center;
     font-family: 'Tangerine', cursive;
@@ -579,7 +578,7 @@ footer .fin{
 }
 
 .spa i{
-    font-size: 60px;
+    font-size: 80px;
     color: rgba(6, 5, 60, 0.9);
 }
 
@@ -588,8 +587,87 @@ footer .fin{
     text-align: center;
 }
 
+#seccion-qhacemos h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.card1{
+    background-color: rgba(246, 215, 204, 0.5);
+    padding: 0;
+    border-top-left-radius: 100px;
+} 
+
+.card1 img{
+    border-top-left-radius: 100px;
+} 
+
+.card2{
+    padding: 0;
+    background-color: rgba(129, 190, 222, 0.1);
+}
+
+.card3{
+    background-color: rgba(246, 215, 204, 0.5);
+    padding: 0;
+    border-top-right-radius: 100px;
+}
+
+.card3 img{
+    border-top-right-radius: 100px;
+}
+
+.enfoques{
+    padding: 0 50px;
+    text-align: center;
+}
+
+.enfoques h3,
+.enfoques p{
+    text-align: left;
+}
+
+/* .enfoques h3{
+    color: rgb(255, 0, 0);
+} */
+
 .spa p{
     text-align: left;
+}
+
+
+ #seccion-cualidades{
+    padding-bottom: 80px;
+ }
+
+ .mision,
+ .vision,
+ .valor{
+    text-align: center;
+ }
+
+ .mision p,
+ .vision p,
+ .valor p{
+    text-align: left;
+ }
+
+ .mision i{
+    font-size: 50px;
+    padding-bottom: 15px;
+    color: rgba(6, 5, 60, 0.9);
+}
+
+.vision i{
+    font-size: 50px;
+    padding-bottom: 15px;
+    color: rgba(6, 5, 60, 0.9);
+}
+
+.valor i{
+    font-size: 50px;
+    padding-bottom: 15px;
+    color: rgba(6, 5, 60, 0.9);
 }
 
 .mvv h3{
