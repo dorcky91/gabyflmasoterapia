@@ -848,7 +848,8 @@ footer .fin{
         height: 300px;
     }
 
-    #seccion-descripcion{
+    #seccion-descripcion,
+    #seccion-inicial{
         text-align: left;
     }
 
@@ -862,7 +863,13 @@ footer .fin{
     .contenedor-testimonio,
     footer .division,
     footer .fin,
-    .contenido-contacto{
+    .contenido-contacto,
+    #seccion-servicios .servicio-descripcion,
+    #seccion-servicios1 .servicio-descripcion1,
+    #seccion-servicios2 .servicio-descripcion2,
+    .linea-paquete1,
+    .nosotros,
+    .qhacemos{
         flex-direction: column;
         --espacio:0;
         gap: 60px;
@@ -872,7 +879,10 @@ footer .fin{
     .w-33,
     #izquierda,
     #medio,
-    .w-50{
+    .w-50,
+    .beneficio,
+    #beneficio-imagen,
+    #derecha{
         width: 100%;
     }
 
@@ -885,12 +895,6 @@ footer .fin{
     #seccion-card .card img{
         width: 250px;
         height: 250px;
-    }
-
-    .beneficio,
-    #beneficio-imagen,
-    #derecha{
-        width: 100%;
     }
 
     .card-resumen{
@@ -944,6 +948,10 @@ footer .fin{
         flex-direction: column;
     }
 
+    footer .d-flex ul a{
+        color: #06053c;
+    }
+
     .red-social{
         flex-direction: column;
         justify-content: center;
@@ -952,6 +960,51 @@ footer .fin{
 
     .social-contenido{
         text-align: center;
+    }
+
+    #seccion-servicios .servicio-descripcion .w-50:last-child div:last-child p,
+    #seccion-servicios1 .descripcion-vela div:last-child p,
+    #seccion-servicios2 .servicio-descripcion2 div:last-child p,
+    .paquetes{
+        margin-bottom: 0;
+    }
+
+    #seccion-servicios{
+        padding-top: 60px;
+    }
+
+    #hero{
+        padding: 80px 0;
+        width: 100%;
+    }
+
+    .spa{
+        padding: 80px 30px;
+    }
+
+    #seccion-nosotros{
+        padding-bottom: 50px;
+    }
+
+    .card1{
+        border-bottom-right-radius: 100px;
+    }
+
+    .card2,
+    .card3{
+        border-bottom-right-radius: 100px;
+    }
+
+    .card2,
+    .card2 img,
+    .card3,
+    .card3 img{
+        border-top-left-radius: 100px;
+    }
+
+    .card3,
+    .card3 img{
+        border-top-right-radius: 0;
     }
 
 
