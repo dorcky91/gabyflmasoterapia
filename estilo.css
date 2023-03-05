@@ -918,6 +918,12 @@ footer .fin {
     padding-bottom: 20px;
   }
 
+  .separate {
+    font-family: "Tangerine", cursive;
+    padding: 50px 15px;
+    font-size: 20px;
+  }
+
   footer .parrafo {
     padding: 0;
   }
