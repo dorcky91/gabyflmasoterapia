@@ -402,6 +402,45 @@ footer .fin {
   color: red;
 }
 
+#hero-video {
+  position: relative;
+  width: 100%;
+}
+
+#hero-video video {
+  position: absolute;
+  width: 100%;
+  border-radius: 24px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+#hero-texto {
+  width: 40%;
+  min-height: 100vh;
+}
+
+#hero-texto div {
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  --espacio: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(0);
+}
+
+#hero-texto p {
+  color: #000;
+}
+
+#hero-video span {
+  font-weight: 700;
+  color: red;
+}
+
 #seccion-servicios p {
   margin-bottom: 40px;
 }
@@ -981,6 +1020,11 @@ footer .fin {
 
   #seccion-servicios {
     padding-top: 60px;
+  }
+
+  #hero-texto {
+    width: 100%;
+    min-height: 50vh;
   }
 
   #hero {
