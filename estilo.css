@@ -410,17 +410,16 @@ footer .fin {
 #hero-video video {
   position: absolute;
   width: 100%;
-  border-radius: 24px;
   height: 100%;
   top: 0;
   left: 0;
-  z-index:-1;
+  z-index: -1;
   object-fit: cover;
 }
 
 #hero-texto {
   width: 40%;
-  min-height: 100vh;
+  min-height: 85vh;
 }
 
 #hero-texto div {
@@ -1027,6 +1026,10 @@ footer .fin {
     min-height: 50vh;
   }
 
+  #hero-texto div {
+    padding: 60px 30px;
+  }
+
   #hero {
     padding: 80px 0;
     width: 100%;
@@ -1089,6 +1092,10 @@ footer .fin {
     background-attachment: inherit;
   }
 
+  #ir {
+    bottom: 2%;
+  }
+
   #seccion-paquetes .contenedor {
     background-attachment: inherit;
   }
@@ -1111,16 +1118,16 @@ footer .fin {
   .btn {
     font-family: "junge", serif;
   }
-  
-  #seccion-video .contenedor{
-    padding:0; 
+
+  #seccion-video .contenedor {
+    padding: 0;
   }
-  
+
   #hero-video video {
-    border-radius:0;
+    border-radius: 0;
   }
-  
-  #hero-texto div{
-   background-color: transparent; 
+
+  #hero-texto div {
+    background-color: transparent;
   }
 }
