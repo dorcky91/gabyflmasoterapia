@@ -1111,4 +1111,16 @@ footer .fin {
   .btn {
     font-family: "junge", serif;
   }
+  
+  #seccion-video .contenedor{
+    padding:0; 
+  }
+  
+  #hero-video video {
+    border-radius:0;
+  }
+  
+  #hero-texto div{
+   background-color: transparent; 
+  }
 }
